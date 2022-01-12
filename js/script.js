@@ -26,7 +26,7 @@ const render = function() {
         }
 
         li.querySelector('.todo-remove').addEventListener('click', function() {
-
+            todoList.remove(li)
             render()
         })
 
